@@ -1,6 +1,6 @@
 <?php
 
-namespace deitsolutions;
+namespace deitsolutions\versioning\src;
 
 class FileVersioning
 {
