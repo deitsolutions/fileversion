@@ -1,0 +1,33 @@
+{
+    "name": "deitsolutions/versioning",
+    "description": "automatically version static files ",
+    "keywords": [
+        "php",
+        "versioning"
+    ],
+    "type": "php-extension",
+    "homepage": "https://github.com/deitsolutions/versioning",
+    "authors": [
+        {
+            "name": "Dmitriy Evdokimov",
+            "email": "dmitriy@deitsolutions.com",
+            "homepage": "http://almeyda.biz",
+            "role": "Developer"
+        },
+        {
+            "name": "Ramil Vildamov",
+            "email": "ramil.vildanov@gmail.com",
+            "homepage": "http://almeyda.biz",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "deitsolutions\\versioning\\": ""
+        }
+    }
+}
