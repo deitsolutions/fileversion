@@ -23,7 +23,7 @@ class FileVersion
     public static function set($filePath)
     {
         //get absolute file path
-        $fileAbsPath = __DIR__ . $filePath;
+        $fileAbsPath = @$_SERVER['DOCUMENT_ROOT'] . $filePath;
 
         //add datetime parameter
         if (file_exists($fileAbsPath)) {
