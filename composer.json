@@ -1,12 +1,13 @@
 {
-    "name": "deitsolutions/versioning",
-    "description": "automatically version static files ",
+    "name": "deitsolutions/fileversion",
+    "description": "automatically timestamp file version based on the files ",
     "keywords": [
         "php",
-        "versioning"
+        "file version",
+        "anti cache"
     ],
     "type": "php-extension",
-    "homepage": "https://github.com/deitsolutions/versioning",
+    "homepage": "https://github.com/deitsolutions/fileversion",
     "authors": [
         {
             "name": "Dmitriy Evdokimov",
@@ -27,7 +28,7 @@
     },
     "autoload": {
         "psr-4": {
-            "deitsolutions\\versioning\\": ""
+            "deitsolutions\\fileversion\\": ""
         }
     }
 }
