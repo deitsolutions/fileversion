@@ -1,6 +1,6 @@
 {
     "name": "deitsolutions/fileversion",
-    "description": "automatically timestamp file version based on the files ",
+    "description": "automatically timestamp file version based on the latest modification date",
     "keywords": [
         "php",
         "file version",
