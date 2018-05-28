@@ -20,7 +20,7 @@ class FileVersion
      * @param string $filePath relative path from to the file
      * @return string
      */
-    public static function set($filePath)
+    public static function get($filePath)
     {
         //get absolute file path
         $fileAbsPath = @$_SERVER['DOCUMENT_ROOT'] . $filePath;
