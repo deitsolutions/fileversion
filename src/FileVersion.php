@@ -1,12 +1,12 @@
 <?php
 /**
- * @link https://github.com/deitsolutions/fileversion.git
- * @copyright Copyright (c) 2018 Almeyda LLC
+ * @link https://github.com/solutlux/fileversion.git
+ * @copyright Copyright (c) 2018 Solutlux LLC
  *
  * The full copyright and license information is stored in the LICENSE file distributed with this source code.
  */
 
-namespace deitsolutions\fileversion\src;
+namespace solutlux\fileversion\src;
 
 /**
  * Class FileVersion automatically appends the latest modification date of the file as the url parameter

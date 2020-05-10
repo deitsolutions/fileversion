@@ -1,5 +1,5 @@
 {
-    "name": "deitsolutions/fileversion",
+    "name": "solutlux/fileversion",
     "description": "automatically timestamp file version based on the latest modification date",
     "keywords": [
         "php",
@@ -8,18 +8,18 @@
     ],
     "type": "php-extension",
     "license": "BSD-3-Clause",
-    "homepage": "https://github.com/deitsolutions/fileversion",
+    "homepage": "https://github.com/solutlux/fileversion",
     "authors": [
         {
             "name": "Dmitriy Evdokimov",
-            "email": "dmitriy@deitsolutions.com",
-            "homepage": "http://almeyda.biz",
+            "email": "dmitriy@solutlux.com",
+            "homepage": "https://solutlux.com",
             "role": "Developer"
         },
         {
             "name": "Ramil Vildanov",
             "email": "ramil.vildanov@gmail.com",
-            "homepage": "http://almeyda.biz",
+            "homepage": "https://solutlux.com",
             "role": "Developer"
         }
     ],
@@ -29,7 +29,7 @@
     },
     "autoload": {
         "psr-4": {
-            "deitsolutions\\fileversion\\": ""
+            "solutlux\\fileversion\\": ""
         }
     }
 }
