@@ -1,5 +1,5 @@
 {
-    "name": "solutlux/fileversion",
+    "name": "almeyda/fileversion",
     "description": "automatically timestamp file version based on the latest modification date",
     "keywords": [
         "php",
@@ -8,18 +8,10 @@
     ],
     "type": "php-extension",
     "license": "BSD-3-Clause",
-    "homepage": "https://github.com/solutlux/fileversion",
     "authors": [
         {
             "name": "Dmitriy Evdokimov",
-            "email": "dmitriy@solutlux.com",
-            "homepage": "https://solutlux.com",
-            "role": "Developer"
-        },
-        {
-            "name": "Ramil Vildanov",
-            "email": "ramil.vildanov@gmail.com",
-            "homepage": "https://solutlux.com",
+            "email": "dmitriy@almeydahost.com",
             "role": "Developer"
         }
     ],
@@ -29,7 +21,7 @@
     },
     "autoload": {
         "psr-4": {
-            "solutlux\\fileversion\\": ""
+            "almeyda\\fileversion\\": ""
         }
     }
 }

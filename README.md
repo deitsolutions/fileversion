@@ -8,12 +8,12 @@ Append the last modified timestamp to the file name in the form of [file_name]?v
 
 Add the extention using composer:
 
-"solutlux/fileversion": "dev-master"
+"almeyda/fileversion": "*"
 
 # Usage
 
 ```html
-<link rel="stylesheet" type="text/css" href="<?php echo \solutlux\fileversion\src\FileVersion::set('pathToCssFileFromTheRoot'); ?>">
-<img src="<?php echo \solutlux\fileversion\src\FileVersion::set('pathToImgFileFromTheRoot'); ?>">
-<script src="<?php echo \solutlux\fileversion\src\FileVersion::set('pathToJsFileFromTheRoot'); ?>"></script>
+<link rel="stylesheet" type="text/css" href="<?php echo \almeyda\fileversion\src\FileVersion::set('pathToCssFileFromTheRoot'); ?>">
+<img src="<?php echo \almeyda\fileversion\src\FileVersion::set('pathToImgFileFromTheRoot'); ?>">
+<script src="<?php echo \almeyda\fileversion\src\FileVersion::set('pathToJsFileFromTheRoot'); ?>"></script>
 ```
